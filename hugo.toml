@@ -1,0 +1,4 @@
+baseURL = 'https://gavynwong.com/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = "ga-hugo-theme"

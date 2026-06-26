@@ -1,0 +1,18 @@
+{{ define "main" }}
+    This is the single template
+{{end}}
+
+{{ .Title }}
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>{{.Title}}</h1>
+        <h4>{{.Date}}</h4>
+        <hr>
+        {{.Content}}
+        <hr>
+    </body>
+</html>
